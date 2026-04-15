@@ -160,6 +160,30 @@ h6 {
   border: 1px solid var(--color-card);
 }
 
+.hero-floating-card {
+  position: absolute;
+  backdrop-filter: blur(8px);
+  background: linear-gradient(to bottom right, color-mix(in srgb, var(--color-card) 90%, transparent), color-mix(in srgb, var(--color-card) 60%, transparent));
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border: 1px solid var(--color-card);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  animation: float 6s ease-in-out infinite;
+  color: var(--foreground);
+  text-align: left;
+}
+
+.hero-card-3 {
+  top: 35%;
+  right: 25%;
+  animation: float3 8s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
 /* WEBILD_PRIMARY_BUTTON */
 /* @primaryButtons/glass-shimmer */
 .primary-button {
