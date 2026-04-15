@@ -177,13 +177,6 @@ h6 {
   text-align: left;
 }
 
-.hero-card-3 {
-  top: 35%;
-  right: 25%;
-  animation: float3 8s ease-in-out infinite;
-  animation-delay: 2s;
-}
-
 /* WEBILD_PRIMARY_BUTTON */
 /* @primaryButtons/glass-shimmer */
 .primary-button {

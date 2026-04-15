@@ -31,21 +31,21 @@ const HeroFullBleedImage = ({
           title="Gourmet Dining"
           description="Exquisite dishes crafted by world-renowned chefs."
           button={{ text: "Explore Menus", href: "#amenities" }}
-          className="top-[15%] left-[10%]"
+          className="top-[15%] left-[5%]"
           style={{ animationDelay: '0s' }}
         />
         <HeroFloatingCard
           title="Spa & Wellness"
           description="Rejuvenate your body and soul in our serene spa."
           button={{ text: "View Services", href: "#amenities" }}
-          className="bottom-[20%] right-[12%]"
+          className="bottom-[20%] right-[5%]"
           style={{ animationDelay: '2s' }}
         />
         <HeroFloatingCard
           title="Private Beach Access"
           description="Relax on our pristine, exclusive white-sand beach."
           button={{ text: "Discover More", href: "#about" }}
-          className="top-[35%] right-[25%]"
+          className="top-[35%] right-[15%]"
           style={{ animationDelay: '4s' }}
         />
       </div>
