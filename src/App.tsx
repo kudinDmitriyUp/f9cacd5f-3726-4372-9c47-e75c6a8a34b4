@@ -34,13 +34,6 @@ export default function App() {
             text: "Reserve Your Suite",            href: "#contact"}}
           imageSrc="https://pixabay.com/get/gd93b93dc58ee032dcbad5acb661ab26f95137275f1701e4108450b0b01699c41807f2c490d0e38b0e003d3dbd090f8456d02c3b51e23821f82f35e4d13bd62a8_1280.jpg"
         />
-        <div className="hero-floating-card hero-card-3 hidden md:block" style={{ zIndex: 0 }}>
-          <h3 className="text-lg font-semibold">Private Beach Access</h3>
-          <p className="text-sm">Relax on our pristine, exclusive white-sand beach.</p>
-          <a href="#about" className="text-sm font-semibold mt-2 text-accent hover:underline">
-            Discover More &rarr;
-          </a>
-        </div>
       </div>
 
       <div id="about" data-section="about">
