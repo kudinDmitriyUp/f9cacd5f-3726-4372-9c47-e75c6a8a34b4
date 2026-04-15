@@ -16,15 +16,15 @@ export default function App() {
       navItems={[
         {
           name: "About",
-          id: "about",
+          href: "#about",
         },
         {
           name: "Amenities",
-          id: "amenities",
+          href: "#amenities",
         },
         {
           name: "Testimonials",
-          id: "testimonials",
+          href: "#testimonials",
         },
       ]}
       ctaButton={{
