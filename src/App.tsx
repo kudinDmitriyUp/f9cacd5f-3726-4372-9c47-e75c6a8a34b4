@@ -3,7 +3,7 @@ import ContactSplitEmail from '@/components/sections/contact/ContactSplitEmail';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeaturesAlternatingSplit from '@/components/sections/features/FeaturesAlternatingSplit';
 import FooterSimpleReveal from '@/components/sections/footer/FooterSimpleReveal';
-import HeroBillboard from '@/components/sections/hero/HeroBillboard';
+import HeroFullBleedImage from '@/components/sections/hero/HeroFullBleedImage';
 import NavbarCentered from '@/components/ui/NavbarCentered';
 import TestimonialOverlayCards from '@/components/sections/testimonial/TestimonialOverlayCards';
 
@@ -27,14 +27,11 @@ export default function App() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroBillboard
-          tag="Welcome to Paradise"
+        <HeroFullBleedImage
           title="Experience Unrivaled Luxury"
           description="Escape to our breathtaking coastal sanctuary where elegance meets serenity. Discover timeless hospitality designed for your ultimate relaxation."
           primaryButton={{
             text: "Reserve Your Suite",            href: "#contact"}}
-          secondaryButton={{
-            text: "Explore Amenities",            href: "#amenities"}}
           imageSrc="https://pixabay.com/get/gd93b93dc58ee032dcbad5acb661ab26f95137275f1701e4108450b0b01699c41807f2c490d0e38b0e003d3dbd090f8456d02c3b51e23821f82f35e4d13bd62a8_1280.jpg"
         />
       </div>
